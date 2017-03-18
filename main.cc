@@ -1,4 +1,9 @@
+int cal(int a, int b)
+{
+   return a + b;
+}
 int main()
 {
-   printf("hello world");
+   int sum = cal(1,2);
+   printf("hello world %d", sum);
 }
